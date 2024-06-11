@@ -30,3 +30,7 @@
 .introdução{
     display: flex;
 }
+
+.introdução-div{
+    width: 35%;
+}
