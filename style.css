@@ -47,6 +47,13 @@
     font-size: 20px;
 }
 
+.agricultura-sustentável{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
 .agricultura-sustentável-texto{
     font-size: 20px;
 }
