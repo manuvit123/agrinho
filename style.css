@@ -5,6 +5,10 @@
     
 }
 
+.cabeçalho-titulo{
+    width: 30;
+}
+
 .cabeçalho-lista-item{
     display: inline-block;
 }
