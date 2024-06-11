@@ -1,3 +1,4 @@
-header{
+.cabeçalho{
     background-color: #9AB68E;
+    display: flex;
 }
