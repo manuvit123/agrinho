@@ -2,4 +2,9 @@
     background-color: #9AB68E;
     display: flex;
     justify-content: space-around;
+    
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
 }
