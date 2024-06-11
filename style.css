@@ -22,7 +22,7 @@
 .titulo-site{
     font-size: 35px;
     text-align: center;
-    padding: 3%;
+    padding: 3px 0;
 }
 
 .introdução-img{
@@ -53,19 +53,19 @@
 }
 
 .agricultura-sustentável-div {
-    margin: 0 1px;
-    padding: 6%;
+    margin: 1px;
+    padding: 6px 0;
 }
 
 .agricultura-sustentável-titulo{
-    padding: 24px;
+    padding: 24px 0;
 }
 
 .praticas-sustentaveis-div{
     margin: 0 1px;
-    padding: 6%;
+    padding: 6px 0;
 }
 
 .praticas-sustentaveis-titulo{
-    padding: 24px;
+    padding: 24px 0;
 }
