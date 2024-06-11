@@ -53,7 +53,7 @@
 }
 
 .agricultura-sustentável-div {
-    margin: 1%;
+    margin: 1% 0;
     padding: 6%;
 }
 
@@ -68,5 +68,6 @@
 
 .práticas-sustentáveis-titulo{
     padding: 6%;
+    font-size: 20px;
 }
 
