@@ -21,8 +21,7 @@
 
 .titulo-site{
     font-size: 35px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .introdução-img{
@@ -39,6 +38,3 @@
     width: 35%;
 }
 
-.título{
-justify-content: center;
-}
