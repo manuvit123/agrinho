@@ -6,9 +6,10 @@
 }
 
 .cabeçalho-titulo{
-    width: 50;
+    width: 50%;
 }
 
 .cabeçalho-lista-item{
     display: inline-block;
+    margin: 0 16px;
 }
