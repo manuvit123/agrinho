@@ -47,9 +47,10 @@
     font-size: 20px;
 }
 
-.agricultura-sustentável{
-    padding: 15px 0;
-}
 .agricultura-sustentável-texto{
     font-size: 20px;
+}
+
+,.agricultura-sustentável-div{
+    padding: 20%;
 }
