@@ -71,6 +71,7 @@
 
 .agricultura-sustentável{
     display: flex;
+    justify-content: center;
 }
 
 .praticas-sustentaveis-div{
