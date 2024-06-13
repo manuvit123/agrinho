@@ -80,8 +80,19 @@
     padding: 24px 0;
 }
 
+.praticas-sustentaveis-texto1{
+    font-size: 17px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .praticas-sustentaveis-texto2{
     padding: 15px;
+    font-size: 17px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .praticas-sustentaveis-titulo{
@@ -90,11 +101,18 @@
 
 .praticas-sustentaveis-texto3{
     padding: 15px;
+    font-size: 17px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .praticas-sustentaveis-texto4{
     padding: 15px;
-    padding-bottom: 15px;
+    font-size: 17px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .beneficios-texto{
