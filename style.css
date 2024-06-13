@@ -68,12 +68,6 @@
     padding: 24px 0;
 }
 
-.agricultura-sustentável{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .praticas-sustentaveis-div{
     margin: 69px;  
     font-size: 20px;
@@ -106,4 +100,5 @@
 
 .agricultura-sustentável-img{
     width: 25%;
+    height: 40%;
 }
