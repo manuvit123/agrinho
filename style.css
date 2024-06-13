@@ -62,7 +62,6 @@
 .agricultura-sustentável-div {
     margin: 69px;
     padding : 6px 0;
-    
 }
 
 .agricultura-sustentável-titulo{
@@ -72,6 +71,7 @@
 .agricultura-sustentável{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .praticas-sustentaveis-div{
