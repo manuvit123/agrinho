@@ -195,6 +195,6 @@
 }
 
 .agricultura-img{
-    width: 30;
-    margin: 50px;
+    display: flex;
+    justify-content: center;
 }
