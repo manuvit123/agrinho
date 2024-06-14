@@ -10,9 +10,6 @@
     
 }
 
-.cabeçalho-titulo{
-}
-
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 15px;
@@ -81,7 +78,8 @@
 }
 
 .praticas-sustentaveis-titulo{
-    padding: 24px 0;
+    padding-top: 24px 0;
+    padding-bottom: 0px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -93,8 +91,8 @@
     font-family: "Arvo", serif;
     font-weight: 400;
     font-style: normal; 
-    padding-top: 0;
-
+    padding-top: 0px;
+    margin: 69px;
 }
 
 .praticas-sustentaveis-texto1{
