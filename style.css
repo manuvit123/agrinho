@@ -10,9 +10,6 @@
     
 }
 
-.cabeçalho-titulo{
-}
-
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 15px;
@@ -77,6 +74,7 @@
 
 .praticas-sustentaveis-div{
     margin: 69px;  
+    padding : 6px 0;
 }
 
 .praticas-sustentaveis-titulo{
