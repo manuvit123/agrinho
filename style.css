@@ -31,11 +31,12 @@
     justify-content: center;
     align-items: center;
     padding: 30px 0;
+    background-image: #9ECD8B, #58923D;
 }
 
 .introdução-div{
     width: 35%;
-    background-image: #9ECD8B, #58923D;
+    
 }
 
 .introdução-titulo{
