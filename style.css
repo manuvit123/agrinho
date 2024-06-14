@@ -27,11 +27,12 @@
 }
 
 .introdução{
+    background-image: #9ECD8B, #58923D;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 0;
-    background-image: #9ECD8B, #58923D;
+    
 }
 
 .introdução-div{
