@@ -196,6 +196,5 @@
 
 .agricultura-img{
     width: 30;
-    display: inline-block;
-    text-align: center;
+    margin: 50px;
 }
