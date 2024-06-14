@@ -27,7 +27,6 @@
 }
 
 .introdução{
-    background-image: #9ECD8B, #58923D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,4 +196,8 @@
 .agricultura-div{
     display: flex;
     justify-content: center;
+}
+
+body{
+    background-image: #9ECD8B, #58923D;
 }
