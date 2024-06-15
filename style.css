@@ -327,8 +327,12 @@ body {
 .praticas-sustentaveis-texto2,
 .praticas-sustentaveis-texto3,
 .praticas-sustentaveis-texto4 {
-    font-size: 16px;
-    margin-bottom: 16px;
+    font-family: 'Arvo', serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #34495e;
+    margin-bottom: 20px;
 }
 
 .subtitulo1,
