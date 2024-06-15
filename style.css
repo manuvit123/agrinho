@@ -213,3 +213,9 @@ body{
     justify-content: center;
     padding: 24px 0;
 }
+
+@media screen and (max-width: 995px){
+    .cabeçalho{
+        display: none;
+    }
+}
