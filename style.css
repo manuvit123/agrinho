@@ -215,7 +215,7 @@ body{
 }
 
 @media screen and (max-width: 995px){
-    .cabeçalho{
+    .cabeçalho-lista{
         display: none;
     }
 
