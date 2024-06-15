@@ -218,4 +218,8 @@ body{
     .cabeçalho{
         display: none;
     }
+
+    .introdução-div{
+        flex-direction: column;
+    }
 }
