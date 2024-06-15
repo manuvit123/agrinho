@@ -221,7 +221,6 @@ body{
 
     .introdução{
         flex-direction: column;
-        display: contents;
-        margin: 0 0;
+        display: grid;
     }
 }
