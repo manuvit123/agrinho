@@ -221,6 +221,6 @@ body{
 
     .introdução{
         flex-direction: column;
-        padding: 1px 0;
+        margin: 10px;
     }
 }
