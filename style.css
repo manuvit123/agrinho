@@ -219,7 +219,7 @@ body{
         display: none;
     }
 
-    .introdução-div{
+    .introdução{
         flex-direction: column;
     }
 }
