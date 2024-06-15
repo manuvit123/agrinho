@@ -376,3 +376,39 @@ body {
     justify-content: center;
     padding: 16px;
 }
+
+/* Media Query para Dispositivos Móveis */
+@media screen and (max-width: 768px) {
+    .cabeçalho {
+        flex-direction: column;
+    }
+
+    .cabeçalho-titulo {
+        margin-bottom: 16px;
+    }
+
+    .cabeçalho-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabeçalho-lista-item {
+        margin: 10px 0;
+    }
+
+    .introdução-div {
+        width: 100%;
+    }
+
+    .introdução-img {
+        width: 100%;
+    }
+
+    .agricultura-sustentável-div,
+    .praticas-sustentaveis-div,
+    .beneficios {
+        margin: 10px;
+    }
+}
+
+}
