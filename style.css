@@ -215,12 +215,200 @@ body{
 }
 
 @media screen and (max-width: 995px){
-    .cabeçalho-lista{
-        display: none;
+    /* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9ECD8B;
+    font-family: "Arvo", serif;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    background-color: #9AB68E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.cabeçalho-titulo {
+    font-size: 24px;
+    color: black;
+}
+
+.cabeçalho-lista {
+    display: flex;
+    list-style: none;
+}
+
+.cabeçalho-lista-item {
+    margin: 0 15px;
+    font-size: 16px;
+    color: black;
+}
+
+.cabeçalho-lista a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Seção Título */
+.titulo-site {
+    font-size: 28px;
+    text-align: center;
+    padding: 16px 0;
+}
+
+/* Seção Introdução */
+.introdução {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.introdução-div {
+    width: 90%;
+}
+
+.introdução-img {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.introdução-titulo {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.introdução-texto {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* Seção Agricultura Sustentável */
+.agricultura-sustentável-div {
+    margin: 20px;
+    padding: 6px 0;
+}
+
+.agricultura-sustentável-titulo {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.agricultura-sustentável-texto {
+    font-size: 16px;
+}
+
+/* Seção Práticas Sustentáveis */
+.praticas-sustentaveis-div {
+    margin: 20px;
+}
+
+.praticas-sustentaveis-titulo {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.praticas-sustentaveis-texto1,
+.praticas-sustentaveis-texto2,
+.praticas-sustentaveis-texto3,
+.praticas-sustentaveis-texto4 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.subtitulo1,
+.subtitulo2,
+.subtitulo3,
+.subtitulo4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Seção Benefícios */
+.beneficios {
+    margin: 20px;
+}
+
+.beneficios-titulo {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.beneficios-texto {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.agricultura-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.agricultura-img {
+    width: 90%;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #9AB68E;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+/* Media Query para Dispositivos Móveis */
+@media screen and (max-width: 768px) {
+    .cabeçalho {
+        flex-direction: column;
     }
 
-    .introdução{
+    .cabeçalho-titulo {
+        margin-bottom: 16px;
+    }
+
+    .cabeçalho-lista {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .cabeçalho-lista-item {
+        margin: 10px 0;
+    }
+
+    .introdução-div {
         width: 100%;
     }
+
+    .introdução-img {
+        width: 100%;
+    }
+
+    .agricultura-sustentável-div,
+    .praticas-sustentaveis-div,
+    .beneficios {
+        margin: 10px;
+    }
+}
+
 }
