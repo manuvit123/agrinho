@@ -293,203 +293,74 @@ body{
 
 @media screen and (max-width: 995px){
     /* Estilos Globais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #9ECD8B;
-    font-family: "Arvo", serif;
-}
-
-/* Cabeçalho */
-.cabeçalho {
-    background-color: #9AB68E;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-}
-
-.cabeçalho-titulo {
-    font-size: 24px;
-    color: black;
-}
-
-.cabeçalho-lista {
-    display: flex;
-    list-style: none;
-}
-
-.cabeçalho-lista-item {
-    margin: 0 15px;
-    font-size: 16px;
-    color: black;
-}
-
-.cabeçalho-lista a {
-    text-decoration: none;
-    color: black;
-}
-
-/* Seção Título */
-.titulo-site {
-    font-size: 28px;
-    text-align: center;
-    padding: 16px 0;
-}
-
-/* Seção Introdução */
-.introdução {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
-}
-
-.introdução-div {
-    width: 90%;
-}
-
-.introdução-img {
-    width: 90%;
-    margin-top: 20px;
-}
-
-.introdução-titulo {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-.introdução-texto {
-    font-size: 16px;
-    margin-bottom: 16px;
-}
-
-/* Seção Agricultura Sustentável */
-.agricultura-sustentável-div {
-    margin: 20px;
-    padding: 6px 0;
-}
-
-.agricultura-sustentável-titulo {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-.agricultura-sustentável-texto {
-    font-size: 16px;
-}
-
-/* Seção Práticas Sustentáveis */
-.praticas-sustentaveis-div {
-    margin: 20px;
-}
-
-.praticas-sustentaveis-titulo {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-.praticas-sustentaveis-texto1,
-.praticas-sustentaveis-texto2,
-.praticas-sustentaveis-texto3,
-.praticas-sustentaveis-texto4 {
-    font-family: 'Arvo', serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #34495e;
-    margin-bottom: 20px;
-}
-
-.subtitulo1,
-.subtitulo2,
-.subtitulo3,
-.subtitulo4 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-/* Seção Benefícios */
-.beneficios {
-    margin: 20px;
-}
-
-.beneficios-titulo {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-.beneficios-texto {
-    font-size: 16px;
-    margin-bottom: 8px;
-}
-
-.agricultura-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.agricultura-img {
-    width: 90%;
-}
-
-/* Rodapé */
-.rodape {
-    background-color: #9AB68E;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    padding: 16px;
-}
-
-/* Media Query para Dispositivos Móveis */
-@media screen and (max-width: 768px) {
-    .cabeçalho {
-        flex-direction: column;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-
-    .cabeçalho-titulo {
-        margin-bottom: 16px;
-    }
-
-    .cabeçalho-lista {
-        flex-direction: column;
+    
+    header {
+        display: flex;
         align-items: center;
+        justify-content: space-between; /* Espaço entre elementos principais */
+        padding: 12px;
+        background-color: black;
+        color: white;
+        position: relative;
     }
-
-    .cabeçalho-lista-item {
-        margin: 10px 0;
+    
+    .cabeçalho-titulo {
+        margin: 0;
+        color: white; /* Ajuste a cor conforme necessário */
+        text-decoration: none; /* Remover sublinhado do link */
     }
-
-    .introdução-div {
-        width: 100%;
+    
+    .nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(58, 97, 61);
+        display: none;
+        text-align: center;
+        z-index: 1;
     }
-
-    .introdução-img {
-        width: 100%;
+    
+    .caixa:checked + .menu-label + .nav {
+        display: block;
     }
-
-    .agricultura-sustentável-div,
-    .praticas-sustentaveis-div,
-    .beneficios {
-        margin: 10px;
+    
+    ul {
+        display: flex;
+        flex-direction: column; /* Colocar os itens da lista em coluna */
+        gap: 10px; /* Espaçamento entre itens da lista */
+        padding: 20px 0;
     }
-}
-
-}
+    
+    ul li {
+        list-style: none;
+    }
+    
+    a {
+        color: rgb(255, 255, 255); /* Ajustado para branco para visibilidade no fundo preto */
+        text-decoration: none;
+    }
+    
+    .menu-label {
+        margin-left: auto; /* Alinha o label à direita */
+        cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+    }
+    
+    .menu-img {
+        width: 30px; /* Ajuste conforme necessário */
+    }
+    
+    .lista-item {
+        padding: 12px 0;
+    }
+    
+    /* Ocultar a caixa de seleção */
+    #menu {
+        display: none;
+    }
+    
