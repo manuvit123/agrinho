@@ -49,8 +49,7 @@ a{
 }
 
 .menu{
-    margin-left: auto;
-}
+    text-align: right;
 
 .lista-item{
     padding: 12px 0;
