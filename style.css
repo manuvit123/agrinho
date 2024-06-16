@@ -1,32 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Espaço entre elementos principais */
     padding: 12px;
-    justify-content: space-between;
     background-color: black;
     color: white;
-    position: relative;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-.texto{
+.texto {
     color: rgb(0, 0, 0);
 }
 
-a{
+a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-.lista{
+.lista {
     display: none;
     position: absolute;
     top: 100%;
@@ -36,22 +36,23 @@ a{
     text-align: center;
 }
 
-.caixa:checked ~ .lista{
+.caixa:checked ~ .lista {
     display: block;
 }
 
-#menu{
+#menu {
     display: none;
 }
 
-.menu-img{
+.menu-img {
     width: 7%;
-    cursor: pointer;
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
 }
 
-.lista-item{
+.lista-item {
     padding: 12px 0;
 }
+
 .cabeçalho{
     background-color: #9AB68E;
     display: flex;
