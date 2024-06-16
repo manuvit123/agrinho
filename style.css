@@ -54,6 +54,10 @@ a {
     cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
 }
 
+#menu {
+    display: none;
+}
+
 .menu-img {
     width: 30px; /* Ajuste conforme necessário */
 }
