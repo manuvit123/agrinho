@@ -499,3 +499,29 @@ body {
 }
 
 }
+
+@media screen and (min-width: 1728px){
+    header {
+        padding: 20px;
+    }
+    
+    .cabeçalho-titulo {
+        font-size: 1.5em;
+    }
+    
+    .menu-img {
+        width: 40px; /* Ajuste conforme necessário */
+    }
+    
+    .nav {
+        text-align: left;
+    }
+    
+    ul {
+        padding: 10px 20px;
+    }
+    
+    .lista-item {
+        padding: 15px 0;
+    }
+}
