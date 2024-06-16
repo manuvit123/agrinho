@@ -46,7 +46,7 @@ a{
 
 .menu-img{
     width: 7%;
-    display: inline-block;
+    display: flex;
     justify-content: right;
 }
 
