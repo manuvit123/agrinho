@@ -13,8 +13,17 @@ header {
     color: white;
 }
 
+.cabeçalho-titulo {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+}
+
 ul li {
     list-style: none;
+    margin-left: 20px;
 }
 
 .texto {
@@ -30,6 +39,8 @@ a {
     display: none;
     position: absolute;
     top: 100%;
+    left: 0;
+    right: 0;
     background-color: rgb(58, 97, 61);
     width: 100%;
     padding: 20px 0;
@@ -44,6 +55,10 @@ a {
     display: none;
 }
 
+label {
+    margin-left: auto; /* Alinha à direita */
+}
+
 .menu-img {
     width: 7%;
     cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
@@ -52,7 +67,6 @@ a {
 .lista-item {
     padding: 12px 0;
 }
-
 .cabeçalho{
     background-color: #9AB68E;
     display: flex;
