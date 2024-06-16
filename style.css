@@ -46,9 +46,11 @@ a{
 
 .menu-img{
     width: 7%;
-    margin-left: auto;
 }
 
+.menu-div{
+    text-align: right;
+}
 .lista-item{
     padding: 12px 0;
 }
