@@ -87,6 +87,10 @@ a {
     font-size: 35px;
     text-align: center;
     padding: 3px 0;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .introdução-img{
