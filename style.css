@@ -55,8 +55,10 @@ a{
 }
 
 .cabeçalho-titulo{
-    color: black;
-    margin: 0;
+    display: inline-block;
+margin: 0 15px;
+font-size: 20px;
+color: black;
 }
 
 .titulo-site{
