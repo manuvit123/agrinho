@@ -60,21 +60,8 @@ a {
     width: 30px; /* Ajuste conforme necessário */
 }
 
-.lista-item {
-    padding: 12px 0;
-}
-
 /* Ocultar a caixa de seleção */
 #menu {
-    display: none;
-}
-
-/* Adicionar comportamento para fechar o menu ao clicar em um link */
-#Introdução:target ~ .cabeçalho .caixa,
-#agricultura:target ~ .cabeçalho .caixa,
-#praticas:target ~ .cabeçalho .caixa,
-#beneficios:target ~ .cabeçalho .caixa,
-#contato:target ~ .cabeçalho .caixa {
     display: none;
 }
 
