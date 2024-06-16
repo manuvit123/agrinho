@@ -44,6 +44,10 @@ a{
     display: none;
 }
 
+.menu-img{
+    width: 10%;
+}
+
 .lista-item{
     padding: 12px 0;
 }
