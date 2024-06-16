@@ -47,6 +47,7 @@ a{
 .menu-img{
     width: 7%;
     display: inline-block;
+    justify-content: right;
 }
 
 .lista-item{
