@@ -2,6 +2,51 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+}
+
+.texto{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(99, 72, 72);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.caixa:checked ~ .lista{
+    display: block;
+}
+
+#menu{
+    display: none;
+}
+
+.lista-item{
+    padding: 12px 0;
+}
 .cabeçalho{
     background-color: #9AB68E;
     display: flex;
