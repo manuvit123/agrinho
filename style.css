@@ -5,7 +5,7 @@
 
 header{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding: 12px;
     justify-content: space-around;
     background-color: black;
@@ -46,7 +46,7 @@ a{
 
 .menu-img{
     width: 7%;
-    text-align: right;
+    margin: 40px;
 }
 
 .lista-item{
