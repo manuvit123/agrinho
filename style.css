@@ -55,10 +55,9 @@ a{
 }
 
 .cabeçalho-titulo{
-    display: inline-block;
-margin: 0 15px;
-font-size: 20px;
-color: black;
+    color: black;
+    margin: 0;
+    text-align: left;
 }
 
 .titulo-site{
