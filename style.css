@@ -11,30 +11,37 @@ header {
     padding: 12px;
     background-color: black;
     color: white;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
+    position: relative;
 }
 
 .cabeçalho-titulo {
     margin: 0;
 }
 
+.nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(58, 97, 61);
+    display: none;
+    text-align: center;
+    z-index: 1;
+}
+
+.caixa:checked + .menu-label + .nav {
+    display: block;
+}
+
 ul {
     display: flex;
     flex-direction: column; /* Colocar os itens da lista em coluna */
-    gap: 20px; /* Espaçamento entre itens da lista */
-    margin-top: 60px; /* Para garantir que a lista não fique atrás do cabeçalho */
-    padding-left: 20px;
+    gap: 10px; /* Espaçamento entre itens da lista */
+    padding: 20px 0;
 }
 
 ul li {
     list-style: none;
-}
-
-.texto {
-    color: rgb(0, 0, 0);
 }
 
 a {
@@ -42,24 +49,18 @@ a {
     text-decoration: none;
 }
 
-.lista {
-    display: none;
-    background-color: rgb(58, 97, 61);
-    padding: 20px 0;
-    text-align: left;
-}
-
-.caixa:checked ~ .lista {
-    display: block;
-}
-
-#menu {
-    display: none;
-}
-
-label {
+.menu-label {
     margin-left: auto; /* Alinha o label à direita */
-    cursor: pointer; /* Adiciona um cursor de p
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+}
+
+.menu-img {
+    width: 30px; /* Ajuste conforme necessário */
+}
+
+.lista-item {
+    padding: 12px 0;
+}
 
 .cabeçalho{
     background-color: #9AB68E;
