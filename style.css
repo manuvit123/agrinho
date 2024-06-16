@@ -500,7 +500,8 @@ body {
 
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1728px){
+    /* Estilos para tablets */
     header {
         padding: 20px;
     }
