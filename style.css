@@ -48,10 +48,6 @@ a{
     width: 7%;
 }
 
-.menu-div{
-    text-align: left;
-}
-
 .lista-item{
     padding: 12px 0;
 }
@@ -65,7 +61,7 @@ a{
 .cabeçalho-titulo{
     color: black;
     margin: 0;
-    text-align: right;
+    text-align: left;
 }
 
 .titulo-site{
