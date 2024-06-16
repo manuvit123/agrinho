@@ -46,6 +46,7 @@ a{
 
 .menu-img{
     width: 7%;
+    cursor: pointer;
 }
 
 .lista-item{
