@@ -18,11 +18,11 @@ ul li{
 }
 
 .texto{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -52,13 +52,6 @@ a{
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
-}
-
-.cabeçalho-lista-item{
-    display: inline-block;
-    margin: 0 15px;
-    font-size: 20px;
-    color: black;
 }
 
 .titulo-site{
