@@ -1,32 +1,32 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-header {
+header{
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Distribui espaço entre os elementos */
     padding: 12px;
+    justify-content: space-around;
     background-color: black;
     color: white;
     position: relative;
 }
 
-ul li {
+ul li{
     list-style: none;
 }
 
-.texto {
+.texto{
     color: rgb(0, 0, 0);
 }
 
-a {
+a{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-.lista {
+.lista{
     display: none;
     position: absolute;
     top: 100%;
@@ -36,16 +36,23 @@ a {
     text-align: center;
 }
 
-.caixa:checked ~ .lista {
+.caixa:checked ~ .lista{
     display: block;
 }
 
-.menu-img {
-    width: 7%;
-    margin-left: auto; /* Alinha à direita */
+#menu{
+    display: none;
 }
 
-.lista-item {
+.menu-img{
+    width: 7%;
+}
+
+.caixa{
+    text-align: right;
+}
+
+.lista-item{
     padding: 12px 0;
 }
 .cabeçalho{
