@@ -60,18 +60,9 @@ a {
     width: 30px; /* Ajuste conforme necessário */
 }
 
-.lista-item {
-    padding: 12px 0;
-}
-
 /* Ocultar a caixa de seleção */
 #menu {
     display: none;
-}
-
-
-.menu-img {
-    width: 30px; /* Ajuste conforme necessário */
 }
 
 .lista-item {
@@ -93,6 +84,7 @@ a {
     color: black;
     margin: 0;
     text-align: left;
+    font-size: 20px;
 }
 
 .titulo-site{
