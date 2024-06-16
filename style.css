@@ -54,6 +54,10 @@ a{
     padding: 24px 0;
 }
 
+.cabeçalho-titulo{
+    color: black;
+}
+
 .titulo-site{
     font-size: 35px;
     text-align: center;
