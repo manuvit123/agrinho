@@ -94,9 +94,9 @@ a {
     text-align: center;
     padding: 3px 0;
     font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .introdução-img{
@@ -500,7 +500,7 @@ body {
 
 }
 
-@media screen and (min-width: 1728px){
+@media screen and (max-width: 995px){
     /* Estilos para tablets */
     header {
         padding: 20px;
